@@ -1,1 +1,3 @@
 # avaliacao-jp
+
+COMANDOS GIT
