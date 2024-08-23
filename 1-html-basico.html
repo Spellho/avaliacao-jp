@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Igor">
+    <meta name="keywords" content="portfolio, curriculo, Igor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./styles/1-html-basico.css">
+</head>
+<body>
+    <header>
+        <h1>Minha página HTML</h1>
+        <a class="btn" href="index.html">Voltar</a>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Seção de Listas</h2>
+            <div>
+                <h3>Lista não ordenada</h3>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Lista ordenada</h3>
+                <ol>                    
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <h2>Seção de imagem e vídeo</h2>
+            <img src="imagem '0'.jpg" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/T5_g8VO8Ac0?si=0koyqUFN10QEa7Ov" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="last">
+            <h2>Seção de Formulário</h2>
+            <form>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo" required />    
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required />
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required />
+                </div>
+
+                <button type="submit">Salvar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <center>
+                &copy; 2024 - Direitos reservados a mim
+            </center>
+        </p>
+    </footer>
+</body>
+</html>

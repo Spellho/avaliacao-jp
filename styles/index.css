@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(20, 0, 43);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container a {
+    background-color: rgb(98, 33, 219);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px 50px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    transition: border-radius 0.3s ease;
+}
+
+.container a:hover {
+    background-color: rgb(76, 228, 177);
+    color: black;
+    border-radius: 50px 10px;
+}
