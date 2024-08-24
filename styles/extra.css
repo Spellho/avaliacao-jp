@@ -5,28 +5,42 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(219, 241, 15);
+    background-color: black;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a {
-    color: black;
-    text-decoration: 0;
+div {
+    border-bottom: 2px, #fff;
 }
 
-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: rgb(253, 243, 231);
+.nada:hover {
     color: black;
 }
 
-a:hover {
-    background-color: rgb(0, 0, 0);
+span:hover {
     color: white;
+}
+
+.comeco {
+    color: white;
+}
+
+.spike {
+    color: white;
+}
+.ceiling {
+    color: white;
+}
+.fim {
+    color: white;
+}
+.baixo:hover {
+    color: black;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: #fff;
 }
